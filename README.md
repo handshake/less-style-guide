@@ -166,7 +166,7 @@ Comment the exceptions.
 <a name="mixins"/>
 ## Mixins
 
-A [mixin][mixin] is a Less specific feature. [Sass/Scss][sass] has something very similar.
+A [mixin][mixin] is a Less specific feature. [Sass][sass] has something very similar.
 
 If you're new to Less, think of mixin's as functions.
 
@@ -282,11 +282,12 @@ Order selectors alphabetically within grouped selectors
 ```less
 .bar,
 .baz,
-.bug
+.bug,
 .foo,
 .hum {
     ...
 }
+```
 
 Try to order rulesets in the same order as the corresponding html elements.
 
@@ -314,6 +315,7 @@ If the order on the page is uncertain, order rulesets alphabetically by the sele
 .secondary-header { ... }
 .tertiary-header { ... }
 ```
+
 <a name="nesting"/>
 ## Nesting
 
